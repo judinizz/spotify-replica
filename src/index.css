@@ -184,6 +184,8 @@ img {
   transform: translateY(0);
   right: 25px;
   bottom: 25px;
+  color: var(--green-400);
+  font-size: 50px;
 }
 
 .single-item__title {
@@ -379,13 +381,17 @@ img {
 
 .song__artist-image {
   justify-self: start;
+  width: 75px;
+  height: 75px;
   border-radius: var(--border-radius-s);
   overflow: hidden;
 }
 
 .song__name {
+  justify-self: start;
   font-size: 19px;
   font-weight: 700;
+  text-align: right;
 }
 
 @media (max-width: 1280px) {

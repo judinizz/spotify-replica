@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "../components/main";
 
 const Artists = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Main type="artists" />
+    </div>
+  );
 };
 
 export default Artists;
