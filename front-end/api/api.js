@@ -1,5 +1,4 @@
 import axios from "axios";
-import "dotenv/config";
 
 const URL = "https://spotify-replica-6sha.onrender.com/api";
 
