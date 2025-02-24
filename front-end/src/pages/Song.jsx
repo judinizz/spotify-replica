@@ -44,6 +44,7 @@ const Song = () => {
         </Link>
         <Player
           duration={songObj.duration}
+          audio={songObj.audio}
           randomIdFoward={randomIdFromArtist}
           randomIdBackward={randomIdFromArtist2}
         />
