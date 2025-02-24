@@ -1,5 +1,21 @@
 {
-  "dependencies": {
-    "mongodb": "^6.13.1"
-  }
+  "name": "full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judinizz/Full-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judinizz/Full-stack/issues"
+  },
+  "homepage": "https://github.com/judinizz/Full-stack#readme",
+  "description": ""
 }
