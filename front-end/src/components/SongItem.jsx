@@ -5,7 +5,7 @@ const SongItem = ({ _id, name, image, duration, index }) => {
   return (
     <Link to={`/song/${_id}`} className="song-item">
       <div className="song-item__number-album">
-        <p>{index + 1}</p>
+        <p className="song-item__index"> {index + 1}</p>
         <div className="song-item__album">
           <img
             className="song-item__image"

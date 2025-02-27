@@ -336,6 +336,12 @@ img {
   text-decoration: underline;
 }
 
+.song-item__index {
+  width: 20px; /* Adjust as needed */
+  text-align: right;
+  display: inline-block;
+}
+
 @media (max-width: 480px) {
   .song-item {
     padding: 10px 16px;
@@ -371,6 +377,7 @@ img {
 
 .song__bar {
   display: grid;
+  justify-content: space-between;
   grid-template-columns: 1fr 3fr 1fr;
   place-items: center;
   background-color: black;
@@ -380,18 +387,17 @@ img {
 }
 
 .song__artist-image {
-  justify-self: start;
   width: 75px;
   height: 75px;
   border-radius: var(--border-radius-s);
   overflow: hidden;
+  justify-self: start;
 }
 
 .song__name {
   justify-self: end;
   font-size: 19px;
   font-weight: 700;
-  text-align: right;
 }
 
 @media (max-width: 1280px) {

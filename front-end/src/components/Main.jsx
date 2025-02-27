@@ -23,7 +23,7 @@ const Main = ({ type }) => {
       {type === "songs" || type === undefined ? (
         <ItemList
           title="Músicas Populares"
-          items={12}
+          items={14}
           itemsArray={songsArray}
           path="/songs"
           idpath="/song"

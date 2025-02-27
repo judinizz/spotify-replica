@@ -14,10 +14,12 @@ const SongList = ({ songsArray }) => {
       <p
         className="song-list__see-more"
         onClick={() => {
-          setItems(items + 5);
+          {
+            items === 5 ? setItems(items + 5) : setItems(items - 5);
+          }
         }}
       >
-        Ver mais
+        {items === 5 ? "Ver mais" : "Ver menos"}
       </p>
     </div>
   );
